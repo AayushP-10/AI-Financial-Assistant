@@ -85,4 +85,4 @@ Make sure your CSV file is properly formatted and contains relevant financial da
 
 ## Contributing
 
-If you'd like to contribute or have questions, please contact me via GitHub issues or directly at [your-email@example.com]. 
+If you'd like to contribute or have questions, please contact me via GitHub issues or directly at [ayushappatil@gmail.com]. 
