@@ -10,6 +10,15 @@ A Streamlit-based web application that allows users to analyze financial data us
 - Preview your data with interactive DataFrame display
 - Download analysis results as text files
 
+## Sample Screenshots
+
+Below are some screenshots showcasing the working of the project:
+
+![Upload CSV and Ask Question](screenshots/upload_and_ask.png)
+![AI Analysis Example](screenshots/ai_analysis.png)
+![AI Analysis Trend Example](screenshots/ai_analysis_trend.png)
+
+
 ## Setup
 
 1. Clone this repository:
@@ -29,16 +38,18 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Create a `.env` file in the project root and add your OpenRouter API key:
+4. Create a `.env` file in the project root and add your Groq API key:
 ```
-OPENROUTER_API_KEY=your_api_key_here
+API_URL=https://api.groq.com/openai/v1/chat/completions
+MODEL=compound-beta
+API_KEY=your_groq_api_key_here
 ```
 
 ## Usage
 
 1. Start the Streamlit app:
 ```bash
-streamlit run main.py
+streamlit run app/main.py
 ```
 
 2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
@@ -68,4 +79,10 @@ Make sure your CSV file is properly formatted and contains relevant financial da
 - Transaction records
 - Income statements
 - Expense reports
-- Budget data 
+- Budget data
+
+---
+
+## Contributing
+
+If you'd like to contribute or have questions, please contact me via GitHub issues or directly at [your-email@example.com]. 
